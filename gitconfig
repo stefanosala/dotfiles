@@ -1,0 +1,22 @@
+[user]
+	name = Stefano Sala
+	email = stefano.sala@spa.it
+[alias]
+	co = checkout
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+[core]
+	excludesfile = /Users/stefanosala/.gitignore
+	editor = vim
+	autocrlf = input
+[apply]
+	whitespace = nowarn
+[format]
+	pretty = %C(yellow)%h%Creset %s %C(red)(%an, %cr)%Creset
+[github]
+	user = stewe
+  token = 5fabe73e6803af8befc6859a98d5269e2b26afa6
+[alias]
+      cleanup = "!git branch --merged | grep  -v '\\*\\|master\\|develop' | xargs -n 1 git branch -d"
